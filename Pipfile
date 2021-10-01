@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+bs4 = "*"
+requests = "*"
+selenium = "*"
+chromedriver-py = "==93.0.4577.63"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
